@@ -179,13 +179,13 @@ p {
   z-index: 997;
   padding: 15px 0;
   background-color: #3b5c94;
-  opacity: 0.5;
+  opacity:0.8;
   top: -100%;
   box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.08);
 }
 #header.header-scrolled, #header.header-inner-pages {
   top: 0;
-  opacity: 0.5;
+  
 }
 #header .logo {
   font-size: 30px;
@@ -285,7 +285,7 @@ p {
   visibility: hidden;
 }
 .navbar .dropdown .dropdown:hover > ul {
-  opacity: 0.5;
+  opacity: 0.7;
   top: 0;
   left: 100%;
   visibility: visible;
@@ -303,7 +303,8 @@ p {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #4b4a4a;
+  color: #D24B7F;
+  opacity: 0.8;
   font-size: 28px;
   cursor: pointer;
   display: none;
