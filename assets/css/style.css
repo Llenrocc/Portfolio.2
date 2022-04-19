@@ -523,10 +523,13 @@ p {
   text-align: left;
 }
 
+
 #about .about-descr .separator {
   max-width: 80%;
+  background-color: blue opacity transparent;
   margin-bottom: 0;
   text-align: left;
+  
 }
 
 /*--------------------------------------------------------------
