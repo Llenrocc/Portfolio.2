@@ -22,12 +22,15 @@ body {
   box-sizing: border-box;
 }
 
+/*---
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
+*/
+
 
 h2 {
-  color: #fff;
+  /*color: #fff;*/
   font-weight: 600;
 }
 
@@ -179,7 +182,7 @@ p {
   z-index: 997;
   padding: 15px 0;
   background-color: #3b5c94;
-  opacity:0.8;
+  
   top: -100%;
   box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.08);
 }
@@ -409,21 +412,33 @@ p {
 }
 
 .hero-content h1 {
-  font-size: 40px;
+  font-size: 56px;
   font-weight: 700;
+  margin-left: 10px;
   margin-bottom: 10px;
   text-transform: uppercase;
   color: #fff;
+  letter-spacing: 4px;
+}
+
+.hero-content h2 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-left: 6rem;
+  color: #fff;
+  letter-spacing: 6px;
 }
 
 .hero-content p {
-  font-size: 13px;
+  font-size: 16px;
   letter-spacing: 3px;
   margin-top: 0;
   margin-bottom: 30px;
+  margin-right: 4rem;
   text-transform: capitalize;
   color: #fff;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .hero-content .list-social li {
@@ -536,11 +551,8 @@ p {
 # Services
 --------------------------------------------------------------*/
 #services {
-  /*-
-  background: rgb(35,54,93);
-  background: linear-gradient(0deg, rgba(35,54,93,1) 0%, rgba(28,43,76,1) 50%, rgba(16,32,58,1) 100%);
-  */
-  background: url(../img/pexels-uzunov-rostislav-5011647.2.jpg);
+  
+  background-color: #EEEEEE;
   width: 100%;
   height: auto;
   position: relative;
@@ -552,22 +564,25 @@ p {
   margin: 10px 0;
   position: relative;
   font-size: 22px;
-  color: #D24B7F;
+  color: #D24B7F; 
+  
   letter-spacing: 0.1em;
-  font-weight: 2000;
+  font-weight: 4000;
   text-transform: uppercase;
   display: block;
 }
 
 .services-block .separator {
+  color: #000000;
   margin: 0;
-  font-size: 13px;
+  font-size: 16px;
   line-height: 22px;
+  font-weight: 3000;
 }
 
 .services-block i {
   font-size: 42px;
-  color: #fff;
+  color: #3b5c94;
   line-height: 44px;
 }
 
@@ -1028,11 +1043,12 @@ blockquote {
 }
 
 #footer .socials-media ul li a:hover {
-  color: #b8a07e;
+  color: #3b5c94;
   transition: all 0.5s ease-in-out 0s;
 }
 
 #footer p {
+  color: #000000;
   font-size: 12px;
   letter-spacing: 0.1em;
   font-weight: 500;
