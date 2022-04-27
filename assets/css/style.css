@@ -28,11 +28,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 */
 
-
+/*
 h2 {
-  /*color: #fff;*/
-  font-weight: 600;
-}
+  color: #fff;
+  font-weight: 600; 
+} */
 
 h4 {
   color: #292929;
@@ -413,7 +413,7 @@ p {
 
 .hero-content h1 {
   font-size: 56px;
-  font-weight: 700;
+  font-weight: 500;
   margin-left: 25px;
   margin-bottom: 10px;
   text-transform: uppercase;
@@ -423,12 +423,11 @@ p {
 
 .hero-content h2 {
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 400;
   margin-bottom: 10px;
-  margin-left: 4.2rem;
+  margin-left: 4.3rem;
   color: #fff;
   letter-spacing: 8px;
-  font-weight: 1000;
 }
 
 .hero-content p {
