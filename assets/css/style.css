@@ -786,6 +786,12 @@ p {
   padding-bottom: 30px;
 }
 
+#journal .img-fluid {
+  border-radius: 20px;
+  outline-style: solid;
+  outline-color: #F10086;
+}
+
 #journal .journal-block {
   display: inline-block;
   height: auto;
