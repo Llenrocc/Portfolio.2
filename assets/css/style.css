@@ -781,6 +781,14 @@ p {
   outline-color: #F10086;
 }
 
+#journal h2 {
+  color: #ffffff;
+  letter-spacing: 12px;
+}
+#journal .portfolio-info {
+  font-family: 'Oswald', sans-serif;
+}
+
 #journal-blog {
   background: #fff;
   padding-bottom: 30px;
