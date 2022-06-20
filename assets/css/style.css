@@ -618,7 +618,14 @@ p {
   padding-bottom: 50px;
   outline-style: solid;
   outline-color: #F10086;
+  background: rgb(59,93,148);
+  background: linear-gradient(214deg, rgba(59,93,148,1) 0%, rgba(9,27,49,1) 100%);
 }
+
+#portfolio h2 {
+  color: #ffffff;
+}
+
 #portfolio #portfolio-flters {
   padding: 0;
   margin: 0 auto 35px auto;
@@ -637,7 +644,7 @@ p {
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
-  color: black;
+  color: #ffffff;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
   
@@ -648,8 +655,14 @@ p {
 #portfolio #portfolio-flters li:last-child {
   margin-right: 0;
 }
-#portfolio .portfolio-item {
+
+#portfolio .img-fluid {
   border-radius: 20px;
+  outline-style: solid;
+  outline-color: #F10086;
+}
+
+#portfolio .portfolio-item {
   margin-bottom: 30px;
 }
 #portfolio .portfolio-item .portfolio-info {
