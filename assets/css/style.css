@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   background: #ffffff;
-  color: #898989;
+  color: #F10086;
   font-family: 'Montserrat', sans-serif;
   font-size: 22px;
   font-weight: 300;
@@ -154,11 +154,12 @@ p {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #D24B7F;
+  background: #F10086;
   width: 40px;
   height: 40px;
   border-radius: 10px;
   transition: all 0.4s;
+
 }
 .back-to-top i {
   font-size: 28px;
@@ -181,7 +182,7 @@ p {
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
-  background-color: #3b5c94;
+  background-color: #0E1E36;
   
   top: -100%;
   box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.08);
@@ -236,10 +237,10 @@ p {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 16px;
   font-weight: 500;
-  color: #D24B7F;
+  color: #F10086;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -275,7 +276,7 @@ p {
   font-size: 12px;
 }
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #D24B7F;
+  color: #F10086;
 }
 .navbar .dropdown:hover > ul {
   opacity: 0.5;
@@ -306,7 +307,7 @@ p {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #D24B7F;
+  color: #F10086;
   opacity: 0.8;
   font-size: 28px;
   cursor: pointer;
@@ -519,7 +520,7 @@ p {
 
 #about .div-img-bg {
   padding-bottom: 30px;
-  border: 20px solid #D24B7F;
+  border: 20px solid #E3A793;
   border-radius: 12px;
 }
 
@@ -541,13 +542,18 @@ p {
 }
 
 
+
+
 #about .about-descr .separator {
   max-width: 80%;
   background-color: blue opacity transparent;
   margin-bottom: 0;
   text-align: left;
+  font-family: 'Oswald', sans-serif;
   
 }
+
+
 
 /*--------------------------------------------------------------
 # Services
@@ -560,13 +566,14 @@ p {
   position: relative;
   padding-top: 44px;
   padding-bottom: 32px;
+  
 }
 
 .services-block span {
   margin: 10px 0;
   position: relative;
   font-size: 22px;
-  color: #D24B7F; 
+  color: #F10086; 
   
   letter-spacing: 0.1em;
   font-weight: 4000;
@@ -600,7 +607,7 @@ p {
   border: 1px solid #0A1a2f;
 }
 .services-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #D24B7F;
+  background-color: #F10086;
 }
 
 /*--------------------------------------------------------------
@@ -609,6 +616,8 @@ p {
 #portfolio {
   position: relative;
   padding-bottom: 50px;
+  outline-style: solid;
+  outline-color: #F10086;
 }
 #portfolio #portfolio-flters {
   padding: 0;
@@ -617,6 +626,8 @@ p {
   text-align: center;
   border-radius: 50px;
   padding: 2px 15px;
+  outline-style: solid;
+  outline-color: #F10086;
 }
 #portfolio #portfolio-flters li {
   cursor: pointer;
@@ -629,14 +640,16 @@ p {
   color: black;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
+  
 }
 #portfolio #portfolio-flters li:hover, #portfolio #portfolio-flters li.filter-active {
-  color: #CE0082;
+  color: #F10086;
 }
 #portfolio #portfolio-flters li:last-child {
   margin-right: 0;
 }
 #portfolio .portfolio-item {
+  border-radius: 20px;
   margin-bottom: 30px;
 }
 #portfolio .portfolio-item .portfolio-info {
@@ -648,6 +661,8 @@ p {
   z-index: 3;
   transition: all ease-in-out 0.3s;
   background: rgba(255, 255, 255, 0.9);
+  outline-style: solid;
+  outline-color: #F10086;
   box-shadow: 5px 10px 18px #888888;
   border-radius: 20px;
   padding: 15px;
@@ -669,10 +684,10 @@ p {
   right: 40px;
   font-size: 24px;
   top: calc(50% - 18px);
-  color: #B44B7A;
+  color: #F10086;
 }
 #portfolio .portfolio-item .portfolio-info .preview-link:hover, #portfolio .portfolio-item .portfolio-info .details-link:hover {
-  color: #B44B7A;
+  color: #F10086;
 }
 #portfolio .portfolio-item .portfolio-info .details-link {
   right: 10px;
@@ -737,14 +752,20 @@ p {
 }
 
 /*--------------------------------------------------------------
-# Journal
+# Journal (Photography)
 --------------------------------------------------------------*/
 #journal, #journal-blog {
   height: auto;
   width: 100%;
-  background: #f7f7f7;
+  background: url(../img/SF-Pic.png);
+  background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
   padding-bottom: 60px;
   position: relative;
+  outline-style: solid;
+  outline-color: #F10086;
 }
 
 #journal-blog {
