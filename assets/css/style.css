@@ -34,14 +34,22 @@ h2 {
   font-weight: 600; 
 } */
 
+
+
+
+
+/*
 h4 {
   color: #292929;
   font-size: 14px;
   font-weight: 600;
 }
+*/
+
+
 
 a {
-  color: #292929;
+  color: #F10086;
   text-decoration: none !important;
   transition: all 0.5s ease-in-out 0s;
 }
@@ -785,6 +793,14 @@ p {
   color: #ffffff;
   letter-spacing: 12px;
 }
+
+#journal h4 {
+  color: #ffffff;
+  margin-top: 6px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
 #journal .portfolio-info {
   font-family: 'Oswald', sans-serif;
 }
