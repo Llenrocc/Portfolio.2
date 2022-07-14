@@ -641,7 +641,7 @@ p {
   margin: 0 auto 35px auto;
   list-style: none;
   text-align: center;
-  border-radius: 50px;
+  border-radius: 2rem;
   padding: 2px 15px;
   outline-style: solid;
   outline-color: #F10086;
@@ -667,7 +667,7 @@ p {
 }
 
 #portfolio .img-fluid {
-  border-radius: 20px;
+  border-radius: 1rem;
   outline-style: solid;
   outline-color: #F10086;
 }
@@ -688,7 +688,7 @@ p {
   outline-style: solid;
   outline-color: #F10086;
   box-shadow: 5px 10px 18px #888888;
-  border-radius: 20px;
+  border-radius: 1rem;
   padding: 15px;
 }
 #portfolio .portfolio-item .portfolio-info h4 {
@@ -783,9 +783,9 @@ p {
   width: 100%;
   background: url(../img/SF-Pic.png);
   background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   padding-bottom: 60px;
   position: relative;
   outline-style: solid;
@@ -814,7 +814,7 @@ p {
 }
 
 #journal .img-fluid {
-  border-radius: 20px;
+  border-radius: 1rem;
   outline-style: solid;
   outline-color: #F10086;
 }
