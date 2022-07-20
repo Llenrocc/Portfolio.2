@@ -524,8 +524,10 @@ p {
   height: auto;
   background: url("../img/pexels-uzunov-rostislav-5011647.1.jpg") repeat scroll center center/cover;
   height: 100vh;
-  width: 100%;
+  
   padding-top: 120px;
+
+  
 }
 
 #about .div-img-bg {
@@ -625,6 +627,7 @@ p {
 --------------------------------------------------------------*/
 #portfolio {
   position: relative;
+  border-radius: 2rem;
   padding-bottom: 50px;
   outline-style: solid;
   outline-color: #F10086;
@@ -650,6 +653,7 @@ p {
   cursor: pointer;
   display: inline-block;
   padding: 10px 15px 8px 15px;
+  border-radius: 2rem;
   font-size: 14px;
   font-weight: 600;
   line-height: 1;
@@ -664,16 +668,18 @@ p {
 }
 #portfolio #portfolio-flters li:last-child {
   margin-right: 0;
+  border-radius:2rem;
 }
 
 #portfolio .img-fluid {
-  border-radius: 1rem;
+  border-radius: 2rem;
   outline-style: solid;
   outline-color: #F10086;
 }
 
 #portfolio .portfolio-item {
   margin-bottom: 30px;
+  border-radius: 2rem;
 }
 
 #portfolio .portfolio-item .portfolio-info {
@@ -688,7 +694,7 @@ p {
   outline-style: solid;
   outline-color: #F10086;
   box-shadow: 5px 10px 18px #888888;
-  border-radius: 1rem;
+  border-radius: 2rem;
   padding: 15px;
 }
 #portfolio .portfolio-item .portfolio-info h4 {
@@ -711,7 +717,7 @@ p {
   color: #F10086;
 }
 #portfolio .portfolio-item .portfolio-info .preview-link:hover, #portfolio .portfolio-item .portfolio-info .details-link:hover {
-  color: #F10086;
+  color: #A2C1EF;
 }
 #portfolio .portfolio-item .portfolio-info .details-link {
   right: 10px;
