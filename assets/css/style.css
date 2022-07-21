@@ -644,16 +644,16 @@ p {
   margin: 0 auto 35px auto;
   list-style: none;
   text-align: center;
-  border-radius: 1rem;
+  border-radius: 2rem;
   padding: 2px 15px;
-  outline-style: solid;
-  outline-color: #F10086;
+  border-style: solid;
+  border-color: #F10086;
 }
 #portfolio #portfolio-flters li {
   cursor: pointer;
   display: inline-block;
   padding: 10px 15px 8px 15px;
-  border-radius: 1rem;
+  
   font-size: 14px;
   font-weight: 600;
   line-height: 1;
@@ -673,13 +673,14 @@ p {
 
 #portfolio .img-fluid {
   border-radius: 2rem;
-  outline-style: solid;
-  outline-color: #F10086;
+  border-style: solid;
+  border-color: #F10086;
 }
 
 #portfolio .portfolio-item {
   margin-bottom: 30px;
   border-radius: 2rem;
+  
 }
 
 #portfolio .portfolio-item .portfolio-info {
@@ -691,8 +692,8 @@ p {
   z-index: 3;
   transition: all ease-in-out 0.3s;
   background: rgba(255, 255, 255, 0.9);
-  outline-style: solid;
-  outline-color: #F10086;
+  border-style: solid;
+  border-color: #F10086;
   box-shadow: 5px 10px 18px #888888;
   border-radius: 1rem;
   padding: 15px;
@@ -820,9 +821,9 @@ p {
 }
 
 #journal .img-fluid {
-  border-radius: 1rem;
-  outline-style: solid;
-  outline-color: #F10086;
+  border-radius: 2rem;
+  border-style: solid;
+  border-color: #F10086;
 }
 
 #journal .journal-block {
