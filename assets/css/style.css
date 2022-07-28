@@ -407,12 +407,12 @@ p {
 --------------------------------------------------------------*/
 #hero {
   background: url("../img/pexels-uzunov-rostislav-5011647.jpg") repeat scroll center center/cover;
-  height: 100vh;
+  height: 112vh;
   width: 100%;
 }
 
 #hero .hero-content {
-  height: 100vh;
+  height: 120vh;
   text-align: left;
   width: 100%;
   display: flex;
@@ -519,12 +519,12 @@ p {
 /*-----------------------------------------------------------------------------------*/
 /*  About
 /*-----------------------------------------------------------------------------------*/
+
 #about {
   width: 100%;
   height: auto;
   background: url("../img/pexels-uzunov-rostislav-5011647.1.jpg") repeat scroll center center/cover;
-  height: 100vh;
-  
+  height: 112vh;
   padding-top: 120px;
 
   
@@ -533,7 +533,7 @@ p {
 #about .div-img-bg {
   padding-bottom: 30px;
   border: 20px solid #E3A793;
-  border-radius: 12px;
+  border-radius: 2rem;
 }
 
 #about .div-img-bg .about-img img {
@@ -795,8 +795,8 @@ p {
   background-size: cover;
   padding-bottom: 60px;
   position: relative;
-  outline-style: solid;
-  outline-color: #F10086;
+  border-style: solid;
+  border-color: #F10086;
 }
 
 #journal h2 {
