@@ -406,7 +406,7 @@ p {
 # Hero
 --------------------------------------------------------------*/
 #hero {
-  background: url("../img/pexels-uzunov-rostislav-5011647.jpg") repeat scroll center center/cover;
+  background: url("../img/Frame\ 1-RSU.png") repeat scroll center center/cover;
   height: 112vh;
   width: 100%;
 }
@@ -523,7 +523,7 @@ p {
 #about {
   width: 100%;
   height: auto;
-  background: url("../img/pexels-uzunov-rostislav-5011647.1.jpg") repeat scroll center center/cover;
+  background: url("../img/Frame\ 1-USD.png") repeat scroll center center/cover;
   height: 112vh;
   padding-top: 120px;
 
@@ -532,7 +532,7 @@ p {
 
 #about .div-img-bg {
   padding-bottom: 30px;
-  border: 20px solid #E3A793;
+  border: 20px solid #A2C1EF;
   border-radius: 2rem;
 }
 
@@ -873,6 +873,7 @@ p {
   height: auto;
   width: 100%;
   background: #ffffff;
+  color: #0E1E36;
   background: cover no-repeat;
   padding-top: 50px;
   padding-bottom: 50px;
