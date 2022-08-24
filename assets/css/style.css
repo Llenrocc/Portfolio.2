@@ -1,10 +1,4 @@
-/**
-* Template Name: Folio - v4.7.0
-* Template URL: https://bootstrapmade.com/folio-bootstrap-portfolio-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
+@-ms-viewport{ width: device-width; }
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -206,8 +200,7 @@ p {
   line-height: 1;
   font-weight: 600;
   letter-spacing: 1px;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-style: italic;
+  
 }
 #header .logo a {
   color: #898989;
@@ -526,7 +519,7 @@ p {
   background: url("../img/Frame\ 1-USD.png") repeat scroll center center/cover;
   height: 112vh;
   padding-top: 120px;
-
+  overflow: auto;
   
 }
 
@@ -631,8 +624,9 @@ p {
   padding-bottom: 50px;
   outline-style: solid;
   outline-color: #F10086;
-  background: rgb(59,93,148);
-  background: linear-gradient(214deg, rgba(59,93,148,1) 0%, rgba(9,27,49,1) 100%);
+  background: rgb(162,193,239);
+background: linear-gradient(0deg, rgba(162,193,239,1) 0%, rgba(14,30,54,1) 52%);
+
 }
 
 #portfolio h2 {
