@@ -871,6 +871,7 @@ background: linear-gradient(0deg, rgba(162,193,239,1) 0%, rgba(14,30,54,1) 52%);
   background: cover no-repeat;
   padding-top: 50px;
   padding-bottom: 50px;
+  text-align: center;
 }
 
 .contact-details {
@@ -894,13 +895,17 @@ background: linear-gradient(0deg, rgba(162,193,239,1) 0%, rgba(14,30,54,1) 52%);
 
 #contact .list-unstyled {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   list-style-type: none;
   font-size: 2rem;
-  
 }
 
-
+#contact .col-lg-6 img {
+  display: flex;
+  justify-content: center;
+  max-height: 50%;
+  
+}
 
 
 /*
