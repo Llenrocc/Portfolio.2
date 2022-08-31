@@ -900,12 +900,14 @@ background: linear-gradient(0deg, rgba(162,193,239,1) 0%, rgba(14,30,54,1) 52%);
   font-size: 2rem;
 }
 
-#contact .col-lg-6 img {
+#contact .logo {
   display: flex;
   justify-content: center;
-  max-height: 50%;
-  
+  max-height: 100%;
+  width: auto;
 }
+
+
 
 
 /*
