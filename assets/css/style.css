@@ -452,7 +452,7 @@ p {
 # Hero
 --------------------------------------------------------------*/
 #hero {
-  background: url("../img/Frame\ 1-RSU.png") repeat scroll center center/cover;
+  background: url("../img/MainPage-RSU.png") repeat scroll center center/cover;
   height: 112vh;
   width: 100%;
 }
@@ -569,7 +569,7 @@ p {
 #about {
   width: 100%;
   height: auto;
-  background: url("../img/Frame\ 1-USD.png") repeat scroll center center/cover;
+  background: url("../img/AboutMe-USD.png") repeat scroll center center/cover;
   height: 112vh;
   padding-top: 120px;
   overflow: auto;
@@ -835,7 +835,7 @@ background: linear-gradient(0deg, rgba(162,193,239,1) 0%, rgba(14,30,54,1) 52%);
 #journal, #journal-blog {
   height: auto;
   width: 100%;
-  background: url(../img/SF-Pic.png);
+  background: url(../img/SF-Build-Pic.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
